@@ -35,3 +35,11 @@ python train.py
 - LoFTR: https://github.com/zju3dv/LoFTR
 - Grid sample replacement: https://zenn.dev/pinto0309/scraps/7d4032067d0160
 - torch2mge: https://github.com/MegEngine/torch2mge
+
+
+# 笔记
+## 安装
+```bash
+conda install pytorch==1.12.1 torchvision==0.13.1 cudatoolkit=11.3 -c pytorch
+pip install imread_from_url chardet
+```
